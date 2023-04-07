@@ -9,9 +9,6 @@
         <module name="ao.angolar.tupuca" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ao.angolar.tupuca" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
