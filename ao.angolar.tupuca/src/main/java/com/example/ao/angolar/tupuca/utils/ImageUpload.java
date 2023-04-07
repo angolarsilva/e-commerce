@@ -30,4 +30,19 @@ public class ImageUpload {
 
         return isUpload;
     }
+
+    public boolean checkExisted(MultipartFile imageProduct) {
+        boolean isExisted = false;
+
+        try {
+
+            File file = new File(UPLOAD_FOLDER + "\\" + imageProduct.getOriginalFilename() );
+
+            return isExisted = true;
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
+
+        return isExisted;
+    }
 }

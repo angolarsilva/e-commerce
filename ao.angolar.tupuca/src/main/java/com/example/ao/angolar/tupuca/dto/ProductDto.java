@@ -1,8 +1,6 @@
-package com.example.ao.angolar.tupuca.dao;
+package com.example.ao.angolar.tupuca.dto;
 
 import com.example.ao.angolar.tupuca.model.entity.Category;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

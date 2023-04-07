@@ -1,5 +1,6 @@
 package com.example.ao.angolar.tupuca.model.service.impl;
 
+import com.example.ao.angolar.tupuca.dto.CategoryDto;
 import com.example.ao.angolar.tupuca.model.entity.Category;
 import com.example.ao.angolar.tupuca.model.repository.CategoryRepository;
 import com.example.ao.angolar.tupuca.model.service.CategoryService;
@@ -65,5 +66,10 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public List<Category> findAllByActivated() {
         return categoryRepository.findAllByActivated();
+    }
+
+    @Override
+    public List<CategoryDto> getCategoryAndProduct() {
+        return null;
     }
 }

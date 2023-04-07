@@ -1,4 +1,4 @@
-package com.example.ao.angolar.tupuca.dao;
+package com.example.ao.angolar.tupuca.dto;
 
 import lombok.Data;
 
@@ -9,8 +9,6 @@ import java.time.LocalTime;
 public class OrderDto {
 
     private int quantity;
-//    private Customer customer;
-//    private Product product;
     private LocalDate date;
     private LocalTime time;
 }

@@ -4,14 +4,14 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Fetch;
+
 
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table( name = "tb_products", uniqueConstraints = @UniqueConstraint(columnNames = {"name", "image"}) )
+@Table( name = "products", uniqueConstraints = @UniqueConstraint(columnNames = {"name", "image"}) )
 public class Product {
 
     @Id
